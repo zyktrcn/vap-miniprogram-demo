@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <vap-miniprogram id="vap"></vap-miniprogram>
+  <button bindtap="init">2d init</button>
+  <button bindtap="initDecoder">decoder init</button>
+</view>

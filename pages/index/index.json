@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "vap-miniprogram": "../components/vap-miniprogram/index"
+  }
+}

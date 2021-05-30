@@ -1,0 +1,22 @@
+/**index.wxss**/
+.canvas2d {
+  position: fixed;
+  width: 100rpx;
+  height: 100rpx;
+  top: -500rpx;
+}
+
+.video {
+  position: fixed;
+  width: 100rpx;
+  height: 100rpx;
+  top: -500rpx;
+}
+
+.canvasWebgl {
+  width: 750rpx;
+  height: 500rpx;
+  display: block;
+  margin: 0 auto;
+  background: transparent;
+}

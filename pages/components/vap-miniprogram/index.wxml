@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <canvas class="canvasWebgl" type="webgl"></canvas>
+  <video class="video" src="{{src}}"></video>
+  <canvas class="canvas2d" type="2d"></canvas>
+</view>
