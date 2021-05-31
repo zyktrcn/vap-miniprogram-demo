@@ -7,7 +7,7 @@
 1. 去除createElement等小程序不支持语法，改为小程序自定义组件引入，从构造函数中传入video、canvas上下文对象。
 2. 小程序video不支持监听事件（on）注册，忽略该部分。
 3. 小程序video不属于HTMLVideoElement，无法直接作为视频帧指定二维纹理，需要用canvas从video中获取视频帧再提取imageData。
-4. 新增小程序视频解码模式，可代替video标签获取视频帧，[实测性能](https://iwiki.woa.com/pages/viewpage.action?pageId=751805193)更好。但高帧率（测试60fps）视频会出现问题，详见[VideoDecoder getFrameData 在安卓上视频解码未结束，但是返回 null ？](https://developers.weixin.qq.com/community/develop/doc/000246a78885686400ba521065b000)。
+4. 新增小程序视频解码模式，可代替video标签获取视频帧，实测性能更好。但高帧率（测试60fps）视频会出现问题，详见[VideoDecoder getFrameData 在安卓上视频解码未结束，但是返回 null ？](https://developers.weixin.qq.com/community/develop/doc/000246a78885686400ba521065b000)。
    
     ```javascript
     // 创建解码器
